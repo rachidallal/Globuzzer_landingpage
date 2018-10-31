@@ -1,0 +1,829 @@
+.hero-section {
+  height: 100vh;
+  background-color: transparent;
+}
+
+.herodiv {
+  position: relative;
+  display: block;
+  overflow: visible;
+  width: 100%;
+  height: 115vh;
+  max-width: 100%;
+  background-image: -webkit-linear-gradient(270deg, #74b2df, transparent);
+  background-image: linear-gradient(180deg, #74b2df, transparent);
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+}
+
+.body {
+  overflow: visible;
+  height: auto;
+  max-width: 100%;
+  -webkit-perspective: 0px;
+  perspective: 0px;
+}
+
+.mainbtn {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  bottom: 19%;
+  z-index: 2;
+  display: block;
+  width: 20%;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 18px 60px;
+  border: 2px solid #e75152;
+  border-radius: 50px;
+  background-color: #e75152;
+  -webkit-transition: box-shadow 300ms ease;
+  transition: box-shadow 300ms ease;
+  font-family: Montserrat, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.mainbtn:hover {
+  box-shadow: 4px 4px 11px 0 rgba(0, 0, 0, .68);
+}
+
+.div-block-2 {
+  position: static;
+  left: 352px;
+  top: 228px;
+  z-index: 8;
+  width: 100%;
+  height: 500px;
+  margin-top: 0%;
+  margin-left: 0%;
+  padding-top: 0%;
+  background-color: hsla(0, 0%, 100%, .59);
+}
+
+.form {
+  margin-left: -7px;
+  padding-top: 82px;
+  padding-right: 59px;
+  padding-left: 59px;
+}
+
+.heading {
+  position: absolute;
+  left: 59px;
+  top: 8%;
+  bottom: 291px;
+  width: 19%;
+  height: 10%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #e75152;
+  font-size: 20px;
+}
+
+.checkin {
+  position: static;
+  margin-top: 67px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-radius: 0px;
+  font-size: 16px;
+}
+
+.country {
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 16px;
+}
+
+.checkinout {
+  position: absolute;
+  top: 21%;
+  bottom: 63%;
+  margin-top: 43px;
+  margin-bottom: 0px;
+  color: #df5b5c;
+  font-size: 20px;
+}
+
+.checkout {
+  font-size: 16px;
+}
+
+.numberofpeople {
+  margin-top: 0px;
+  font-size: 16px;
+}
+
+.heading-2 {
+  margin-top: 19px;
+  margin-bottom: 0px;
+  color: #df5b5c;
+  font-size: 20px;
+}
+
+.submit-button {
+  position: absolute;
+  left: 35%;
+  right: 0px;
+  bottom: 4%;
+  padding: 14px 74px;
+  border: 2px solid transparent;
+  border-radius: 50px;
+  background-color: #d86465;
+  font-family: Montserrat, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.utility-page-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.utility-page-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+.nordics {
+  position: relative;
+  overflow: visible;
+  width: 100%;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  margin-top: 10%;
+  padding-top: 68px;
+  background-color: #fff;
+}
+
+.packages {
+  position: static;
+  height: 100vh;
+  margin-top: 5%;
+  padding-top: 71px;
+  background-color: transparent;
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+}
+
+.norwayimg {
+  position: static;
+  width: 50%;
+  height: 70%;
+  margin-top: 0px;
+  margin-left: 13%;
+  padding-top: 0px;
+  background-color: #06141d;
+  background-image: url('../images/norway2.jpg');
+  background-position: 50% 50%;
+  background-size: 100%;
+  background-attachment: scroll;
+  opacity: 1;
+  -webkit-filter: contrast(73%);
+  filter: contrast(73%);
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  -webkit-transform: rotateX(40deg) rotateY(13deg) rotateZ(0deg);
+  transform: rotateX(40deg) rotateY(13deg) rotateZ(0deg);
+  -webkit-transition: -webkit-transform 300ms ease, -webkit-filter 417ms ease;
+  transition: -webkit-transform 300ms ease, -webkit-filter 417ms ease;
+  transition: transform 300ms ease, filter 417ms ease;
+  transition: transform 300ms ease, filter 417ms ease, -webkit-transform 300ms ease, -webkit-filter 417ms ease;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.norwayimg:hover {
+  background-image: -webkit-linear-gradient(270deg, rgba(216, 100, 101, 0), rgba(216, 100, 101, 0)), url('../images/norway2.jpg');
+  background-image: linear-gradient(180deg, rgba(216, 100, 101, 0), rgba(216, 100, 101, 0)), url('../images/norway2.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  -webkit-filter: contrast(100%);
+  filter: contrast(100%);
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.packageheading {
+  position: absolute;
+  top: 35%;
+  right: 14%;
+  bottom: 57%;
+  z-index: 2;
+  margin-top: 0px;
+  margin-right: -13px;
+  margin-bottom: 0px;
+  -webkit-transition: color 300ms ease;
+  transition: color 300ms ease;
+  color: #d86465;
+  font-size: 120px;
+  letter-spacing: 15px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.packageheading:hover {
+  color: #bb5657;
+}
+
+.packageheading.headingdenmark {
+  color: #d86465;
+  text-decoration: none;
+}
+
+.norparagraph2 {
+  position: absolute;
+  left: 29%;
+  top: 48%;
+  right: 0%;
+  display: block;
+  width: 600px;
+  margin-right: 0px;
+  margin-left: 31%;
+  padding-right: 0%;
+  padding-left: 0%;
+  font-family: Montserrat, sans-serif;
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+.norparagraph2.danparagraph {
+  left: 26%;
+  display: block;
+  margin-right: 0px;
+  margin-left: 31%;
+  padding-right: 0%;
+}
+
+.norparagraph2.swepara {
+  left: 26%;
+  right: 0%;
+  width: 600px;
+}
+
+.leftimgnor {
+  width: 40%;
+  height: 40%;
+  margin-top: 0px;
+  background-color: #0d3753;
+  background-image: url('../images/hero6-min.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+  box-shadow: 4px 4px 13px 0 rgba(0, 0, 0, .66);
+  -webkit-transform: rotate(0deg) translate3d(28px, -32px, 130px) scale(1) translate3d(0px, 0px, 9px);
+  transform: rotate(0deg) translate3d(28px, -32px, 130px) scale(1) translate3d(0px, 0px, 9px);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.leftimgnor:hover {
+  -webkit-transform: translate3d(28px, -32px, 130px);
+  transform: translate3d(28px, -32px, 130px);
+}
+
+.leftimgnor.rightimgnor {
+  background-image: url('../images/hero7-min.jpg');
+  -webkit-transform: translate3d(340px, 176px, 88px);
+  transform: translate3d(340px, 176px, 88px);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.leftimgnor.mgright_sweden {
+  background-image: url('../images/ferhat-deniz-fors-777171-unsplash-min.jpg');
+  -webkit-transform: rotate(0deg) translate3d(250px, 280px, 130px) scale(1) translate3d(0px, 0px, 9px);
+  transform: rotate(0deg) translate3d(250px, 280px, 130px) scale(1) translate3d(0px, 0px, 9px);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.denmark {
+  overflow: visible;
+  width: 50%;
+  height: 60%;
+  margin-top: 0px;
+  margin-right: 8%;
+  margin-left: 13%;
+  background-image: -webkit-linear-gradient(270deg, transparent, hsla(0, 0%, 100%, .04) 4%, hsla(0, 0%, 100%, .25)), url('../images/coverdenmark.jpg');
+  background-image: linear-gradient(180deg, transparent, hsla(0, 0%, 100%, .04) 4%, hsla(0, 0%, 100%, .25)), url('../images/coverdenmark.jpg');
+  background-position: 0px 0px, 50% 27%;
+  background-size: auto, cover;
+  background-attachment: scroll, scroll;
+  -webkit-filter: contrast(72%);
+  filter: contrast(72%);
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+  -webkit-transform: rotateX(37deg) rotateY(13deg) rotateZ(-10deg);
+  transform: rotateX(37deg) rotateY(13deg) rotateZ(-10deg);
+  -webkit-transition: -webkit-filter 417ms ease, -webkit-transform 300ms ease;
+  transition: -webkit-filter 417ms ease, -webkit-transform 300ms ease;
+  transition: filter 417ms ease, transform 300ms ease;
+  transition: filter 417ms ease, transform 300ms ease, -webkit-filter 417ms ease, -webkit-transform 300ms ease;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.denmark:hover {
+  -webkit-filter: contrast(105%);
+  filter: contrast(105%);
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.leftimg_dan {
+  width: 40%;
+  height: 40%;
+  background-color: #294457;
+  background-image: url('../images/denmark3.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  -webkit-transform: translate3d(500px, -32px, 130px);
+  transform: translate3d(500px, -32px, 130px);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.leftimg_dan.rightimg_dan {
+  background-image: url('../images/marten-bjork-726405-unsplash.jpg');
+  background-size: cover;
+  -webkit-transform: translate3d(-14px, -32px, 130px) translate3d(-14px, 199px, 83px);
+  transform: translate3d(-14px, -32px, 130px) translate3d(-14px, 199px, 83px);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.leftimg_dan.rightimg_dan.leftimgnor {
+  width: 40%;
+  height: 30%;
+  -webkit-transform: translate3d(-14px, 199px, 83px);
+  transform: translate3d(-14px, 199px, 83px);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.leftimg_dan.rightimg_dan.leftimgnor:hover {
+  -webkit-transform: translate3d(-14px, 199px, 83px);
+  transform: translate3d(-14px, 199px, 83px);
+}
+
+.leftimg_dan.leftimg_sweden {
+  background-image: url('../images/sweden2.jpg');
+  box-shadow: 2px 2px 11px 0 rgba(0, 0, 0, .43);
+  -webkit-transform: translate3d(60px, -74px, 130px);
+  transform: translate3d(60px, -74px, 130px);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.leftimg_dan.leftimgnor {
+  -webkit-transform: translate3d(250px, -32px, 130px);
+  transform: translate3d(250px, -32px, 130px);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.leftimg_dan.leftimgnor:hover {
+  -webkit-transform: translate3d(250px, -32px, 130px);
+  transform: translate3d(250px, -32px, 130px);
+}
+
+.denmarkpics {
+  position: relative;
+  height: 100vh;
+  margin-top: 313px;
+}
+
+.swedenpics {
+  height: 100vh;
+  margin-top: 0px;
+  background-color: #fff;
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+}
+
+.swedenmain {
+  width: 50%;
+  height: 70%;
+  margin-right: 8%;
+  margin-left: 13%;
+  background-color: #3f4e58;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .09) 61%, hsla(0, 0%, 100%, .52)), url('../images/hero9-min.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .09) 61%, hsla(0, 0%, 100%, .52)), url('../images/hero9-min.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  -webkit-filter: contrast(72%);
+  filter: contrast(72%);
+  -webkit-transform: rotateX(27deg) rotateY(13deg) rotateZ(-10deg);
+  transform: rotateX(27deg) rotateY(13deg) rotateZ(-10deg);
+  -webkit-transition: -webkit-filter 417ms ease, -webkit-transform 300ms ease;
+  transition: -webkit-filter 417ms ease, -webkit-transform 300ms ease;
+  transition: filter 417ms ease, transform 300ms ease;
+  transition: filter 417ms ease, transform 300ms ease, -webkit-filter 417ms ease, -webkit-transform 300ms ease;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.swedenmain:hover {
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .1) 61%, hsla(0, 0%, 100%, .4)), url('../images/hero9-min.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .1) 61%, hsla(0, 0%, 100%, .4)), url('../images/hero9-min.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  -webkit-filter: contrast(104%);
+  filter: contrast(104%);
+  -webkit-transform: rotateX(0) rotateY(0deg) rotateZ(0deg);
+  transform: rotateX(0) rotateY(0deg) rotateZ(0deg);
+}
+
+.findlandpics {
+  position: static;
+  left: 0px;
+  top: 0px;
+  height: 100vh;
+  margin-top: 188px;
+  opacity: 1;
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+}
+
+.finlandmain {
+  width: 50%;
+  height: 70%;
+  margin-left: 13%;
+  background-color: #557e99;
+  background-image: -webkit-linear-gradient(270deg, transparent, hsla(0, 0%, 100%, .37)), url('../images/alexandr-bormotin-618344-unsplash-min.jpg');
+  background-image: linear-gradient(180deg, transparent, hsla(0, 0%, 100%, .37)), url('../images/alexandr-bormotin-618344-unsplash-min.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-attachment: scroll, scroll;
+  -webkit-filter: contrast(76%);
+  filter: contrast(76%);
+  -webkit-transform: rotateX(0deg) rotateY(17deg) rotateZ(-10deg);
+  transform: rotateX(0deg) rotateY(17deg) rotateZ(-10deg);
+  -webkit-transition: -webkit-filter 417ms ease, -webkit-transform 300ms ease;
+  transition: -webkit-filter 417ms ease, -webkit-transform 300ms ease;
+  transition: filter 417ms ease, transform 300ms ease;
+  transition: filter 417ms ease, transform 300ms ease, -webkit-filter 417ms ease, -webkit-transform 300ms ease;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.finlandmain:hover {
+  -webkit-filter: contrast(129%);
+  filter: contrast(129%);
+  -webkit-transform: rotateX(0deg) rotateY(0) rotateZ(0deg);
+  transform: rotateX(0deg) rotateY(0) rotateZ(0deg);
+}
+
+.leftimgfinland {
+  width: 40%;
+  height: 40%;
+  background-color: #94999c;
+}
+
+.leftimgfinland.leftimg_dan {
+  background-image: url('../images/finland3-min.jpg');
+  box-shadow: 3px 3px 11px 0 rgba(0, 0, 0, .59);
+  -webkit-transform: translate3d(-83px, -69px, 19px);
+  transform: translate3d(-83px, -69px, 19px);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.rightimfinland {
+  width: 40%;
+  height: 40%;
+  background-color: #2e6285;
+  background-image: url('../images/finland4.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  box-shadow: 3px 3px 12px 0 rgba(0, 0, 0, .53);
+  -webkit-transform: translate(250px, 231px);
+  -ms-transform: translate(250px, 231px);
+  transform: translate(250px, 231px);
+}
+
+.contactus {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-width: 100vh;
+  margin-top: 261px;
+  padding-top: 128px;
+  background-color: #262f35;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .57), rgba(0, 0, 0, .57)), url('../images/sweden4-min.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .57), rgba(0, 0, 0, .57)), url('../images/sweden4-min.jpg');
+  background-position: 0px 0px, 50% 45%;
+  background-size: auto, 2144px;
+  background-attachment: scroll, fixed;
+}
+
+.container {
+  position: relative;
+  margin-top: 0px;
+  background-color: transparent;
+}
+
+.contactform {
+  position: relative;
+  display: block;
+  margin-top: 48px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 15px;
+  padding-right: 42px;
+  padding-left: 42px;
+  border-radius: 20px;
+  background-color: hsla(0, 0%, 100%, .27);
+}
+
+.field-label {
+  margin-top: 43px;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 18px;
+}
+
+.field-label-2 {
+  position: absolute;
+  margin-bottom: 1px;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 18px;
+}
+
+.field-label-2.message {
+  bottom: 256px;
+  margin-bottom: 13px;
+  font-family: Montserrat, sans-serif;
+}
+
+.textarea {
+  margin-top: 62px;
+  margin-bottom: 34px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.text-field {
+  margin-top: 55px;
+  margin-bottom: 22px;
+}
+
+.text-field-2 {
+  margin-top: 14px;
+  margin-bottom: 22px;
+}
+
+.submit-button-2 {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-left: 0%;
+  padding: 14px 94px;
+  background-color: #d86465;
+  -webkit-transition: box-shadow 250ms ease;
+  transition: box-shadow 250ms ease;
+  font-family: Montserrat, sans-serif;
+  font-size: 17px;
+}
+
+.submit-button-2:hover {
+  box-shadow: 3px 3px 18px 0 rgba(0, 0, 0, .85);
+}
+
+.contactus_heading {
+  display: block;
+  width: 350px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Montserrat, sans-serif;
+  color: #d86465;
+  font-size: 45px;
+  text-align: center;
+}
+
+.iconsfooter {
+  position: relative;
+  display: none;
+  margin-right: -64%;
+  margin-left: -64%;
+  padding-right: 0px;
+  padding-left: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.destination {
+  position: static;
+  left: 20%;
+  right: 48%;
+  bottom: 2px;
+  margin-top: 18px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 25px;
+}
+
+.phone {
+  position: absolute;
+}
+
+.phone.destination {
+  position: static;
+  left: 55%;
+  right: 1%;
+  width: 10%;
+  margin-left: 99px;
+}
+
+.mail.phone {
+  position: static;
+  left: 69%;
+  top: -8px;
+  right: 18%;
+  bottom: 0px;
+  color: #fff;
+  font-size: 25px;
+}
+
+.navbar {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  background-color: #000;
+}
+
+.image-6 {
+  margin-top: 10px;
+}
+
+.contact_link {
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.my_packages {
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.container-2 {
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+.fomsection {
+  display: none;
+  background-color: transparent;
+}
+
+.column {
+  position: relative;
+}
+
+.background-video-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: -webkit-linear-gradient(270deg, hsla(0, 0%, 59%, .4), rgba(48, 48, 48, .56));
+  background-image: linear-gradient(180deg, hsla(0, 0%, 59%, .4), rgba(48, 48, 48, .56));
+}
+
+.column-2 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.heading-4 {
+  font-family: Montserrat, sans-serif;
+  font-size: 45px;
+}
+
+.link {
+  display: block;
+  color: #d86465;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.link:hover {
+  color: #f66264;
+}
+
+.link-2 {
+  color: #d86465;
+  text-decoration: none;
+}
+
+.link-2:hover {
+  color: #f66264;
+}
+
+.link-3 {
+  color: #d86465;
+  text-decoration: none;
+}
+
+.link-3:hover {
+  color: #f66264;
+}
+
+.link-4 {
+  color: #d86465;
+  text-decoration: none;
+}
+
+.link-4:hover {
+  color: #f66264;
+}
+
+.denmark_btn {
+  display: none;
+}
+
+.perks {
+  display: block;
+  width: 100%;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+}
+
+.customerservice {
+  display: block;
+  width: 20%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.perks_text {
+  margin-top: 32px;
+  padding-right: 49px;
+  padding-left: 49px;
+}
+
+.perks_text.customer_service {
+  margin-top: 32px;
+  padding-right: 87px;
+  padding-left: 87px;
+  font-family: Montserrat, sans-serif;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 500;
+}
